@@ -1,0 +1,50 @@
+
+.header {
+  background-color: black;
+  list-style: none;
+  margin-bottom: 10px;
+  height: 5em;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 2;
+}
+
+.header-text {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+}
+
+.header-logo {
+  width: 1.75em;
+  height: 1.75em;
+  margin-right: .5em;
+}
+
+.header-container {
+  display: inline-block;
+}
+
+a.header-button {
+  text-decoration: none; 
+  color: white;
+}
+
+a.header-button:hover {
+  color: #AB92BF;
+}
+
+.header-button {
+  display: inline-block;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+}
